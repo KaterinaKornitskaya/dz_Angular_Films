@@ -1,0 +1,81 @@
+body{
+    /* background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    background-image: url(./assets/i75_ArticleImage_215366.webp);
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+}
+
+.mainSection{
+    background: rgba(255,255,255,0.9);
+    width: 70%;
+    margin: 2em auto;
+    /* border: 1px solid red; */
+}
+
+.searchSection{
+    text-align: center;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    width: 50%;
+    margin: auto;
+    background: rgb(20, 20, 20);
+    color:white;
+    font-size: 1em;
+    border-radius: 48px;
+    border: none;
+    padding: 1em;
+}
+input[type="text"]:hover{
+    border: none;
+    background: rgb(51, 51, 51);
+}
+
+button{
+    margin: 1em auto;
+    background: rgb(51, 51, 51);
+    color:white;
+    font-size: 1em;
+    border-radius: 48px;
+    border: none;
+    padding: 1em 2em;
+}
+
+
+.inputSection{
+    width: 100%;
+    padding: 0.5em;
+    /* border: 1px solid black; */
+}
+
+
+.filmSection{
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.infoSection{
+    /* border: 1px solid yellow; */
+    width: 60%;
+    padding: 0 1em;
+}
+
+.posterSection{
+    /* border: 1px solid violet; */
+    width: 40%;
+    padding: 0 1em;
+}
+
+img{
+    width: 100%;
+}
+

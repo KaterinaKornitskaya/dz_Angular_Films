@@ -1,0 +1,25 @@
+<section class="mainSection">
+
+    <section class="searchSection">
+        <h5>Який фільм шукаєте?</h5>
+        <input class="form-control" type="text" name="film" [(ngModel)]="title">
+        <button class="btn btn-default" (click)="show()">Показати</button>
+    </section>
+
+    <section class="filmSection">
+        <section class="posterSection">
+            <img src="{{filmPoster}}">
+        </section>
+        <section class="infoSection">
+            <h4>{{filmTitle}}</h4>
+            <p>{{filmYear}}</p>
+            <h5>{{filmDirector}}</h5>
+            <p>{{filmReleased}}</p>
+            <p>{{filmActors}}</p>
+            <p>{{filmRuntime}}</p>
+            <p>{{filmGenre}}</p>
+            <p>{{filmPlot}}</p>
+        </section>
+    </section>
+
+</section>

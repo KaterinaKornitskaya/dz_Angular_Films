@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class FilmService {\n  filmTitle = \"\";\n  filmActors = \"\";\n  filmDirector = \"\";\n  filmPoster = \"\";\n  filmReleased = \"\";\n  filmYear = \"\";\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
